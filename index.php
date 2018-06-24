@@ -7,9 +7,7 @@ $obj = json_decode($json);
 
 echo "<font color='red'>";
 
-foreach ($obj as $result) {
-  echo $result."<br>";
-}
+print_r($obj);
 
 echo "</font>";
 ?>
