@@ -10,7 +10,7 @@ class CrimeMap {
     $url = getURL().$date;
     
     $x=json_decode($url);
-    echo $x;
+    return $x;
   }
   
 }
